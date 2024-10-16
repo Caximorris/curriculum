@@ -8,8 +8,6 @@ Welcome to my curriculum vitae project! This is a personal portfolio website bui
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
