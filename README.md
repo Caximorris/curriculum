@@ -8,8 +8,6 @@ Welcome to my curriculum vitae project! This is a personal portfolio website bui
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -31,24 +29,23 @@ To get started with this project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Caximorris/curriculum.git
-Navigate into the project directory:
 
-bash
-Copy code
-cd curriculum
-Install the dependencies:
+2. Navigate into the project directory:
+   ```bash
+   cd curriculum
 
-bash
-Copy code
-npm install
-Start the development server:
+3. Install the dependencies:
+   ```bash
+   npm install
 
-bash
-Copy code
-npm run dev
-Open your browser and go to http://localhost:5173 to see the app in action.
+4. Start the development server:
+   ```bash
+   npm run dev
 
-Usage
+5. Open your browser and go to http://localhost:5173 to see the app in action.
+
+## Usage
+
 The application consists of three main pages:
 
 Home: Introduces who I am and provides a brief overview of my background.
