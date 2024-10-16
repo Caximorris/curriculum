@@ -1,7 +1,19 @@
 const Experience: React.FC = () => {
     return (
         <section className="experience">
-            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+            <h2 className="text-3xl tracking-tight text-gray-900 sm:text-3xl pb-4">Experience</h2>
+            <dl className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                <div className="border-t border-gray-200 pt-4">
+                    <dt className="font-medium text-gray-900">HARDWARE TECHNICIAN</dt>
+                    <dd className="mt-2 text-sm text-gray-700">
+                        <ul>
+                            <li>Computer equipment assembler</li>
+                            <li>Software configuration</li>
+                            <li>Repair of cell phones, tablets and laptops.</li>
+                        </ul>
+                        <p className="mt-2 text-sm text-gray-500">MJOLNIR 08/2019 - 01/2022</p>
+                    </dd>
+                </div>
                 <div className="border-t border-gray-200 pt-4">
                     <dt className="font-medium text-gray-900">IT SYSTEMS OPERATIONS TECHNICIAN</dt>
                     <dd className="mt-2 text-sm text-gray-700">
@@ -10,7 +22,7 @@ const Experience: React.FC = () => {
                             <li>Software configuration</li>
                             <li>Checkout assembler</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-500">COS 2022 (MARCH)</p>
+                        <p className="mt-2 text-sm text-gray-500">COS 02/2022 - 04/2022</p>
                     </dd>
                 </div>
                 <div className="border-t border-gray-200 pt-4">
@@ -32,12 +44,8 @@ const Experience: React.FC = () => {
                             <li>Software maintenance</li>
                             <li>Repair of cell phones, tablets and laptops.</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-500">ANOVO (MOVISTAR) 08/2024 - current</p>
+                        <p className="mt-2 text-sm text-gray-500">ANOVO 08/2024 - current</p>
                     </dd>
-                </div>
-                <div className="border-t border-gray-200 pt-4">
-                    <dt className="font-medium text-gray-900">Finish</dt>
-                    <dd className="mt-2 text-sm text-gray-700">Hand sanded and finished with natural oil</dd>
                 </div>
             </dl>
         </section >

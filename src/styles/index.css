@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -61,4 +61,25 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+section {
+  padding: 2em;
+  margin: 2em 0;
+  background-color: #f8f8f8;
+  border-radius: 14px;
+  box-shadow: 6px 6px 12px #c5c5c5,
+  -6px -6px 12px #ffffff;--section_radius: 0.75em;
+  --section_outline_color: #000000;
+  
+  /* Border style for the section */
+  border-radius: var(--section_radius);
+  border: 2px solid var(--section_outline_color);
+  background: var(--section_color);
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 80%;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
+    -6px -6px 16px rgba(255, 255, 255, 0.2);
+
 }
