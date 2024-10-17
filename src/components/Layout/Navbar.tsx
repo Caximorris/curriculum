@@ -7,7 +7,6 @@ const Navbar: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    // Set the theme based on user's preference or default mode
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
     } else {
