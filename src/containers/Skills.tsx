@@ -2,8 +2,8 @@ const Skills: React.FC = () => {
     return (
         <section className="skills">
             <div>
-                <dt className="text-3xl tracking-tight text-gray-900 sm:text-3xl pt-2">Skills</dt>
-                <ul className="mt-2 text-sm text-gray-900">
+                <dt className="text-3xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl pt-2">Skills</dt>
+                <ul className="mt-2 text-sm text-gray-900 dark:text-gray-100">
                     <li>- JavaScript / TypeScript</li>
                     <li>- React</li>
                     <li>- Node.js</li>
