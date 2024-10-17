@@ -2,8 +2,8 @@ const MyStudies: React.FC = () => {
     return (
         <section className="studies">
             <div>
-                <h2 className="text-3xl tracking-tight text-gray-900 sm:text-3xl pt-2">Studies</h2>
-                <div className="my-studies-container mt-4 text-gray-900">
+                <h2 className="text-3xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl pt-2">Studies</h2>
+                <div className="my-studies-container mt-4 text-gray-900 dark:text-gray-100">
                     <div className="studies-item">
                         <h3>Computer Science</h3>
                         <p className="mb-2 text-sm text-gray-700">UIB</p>

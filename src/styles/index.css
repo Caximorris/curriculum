@@ -17,6 +17,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: rgb(234, 234, 234);
+}
+
+.dark body {
+  background-color: #111111;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -58,7 +66,7 @@ button {
 section {
   padding: 2em;
   margin: 2em 0;
-  background-color: #ade2d3;
+  background-color: #8fcfcf;
   box-shadow: 6px 6px 12px #c5c5c5,
   -6px -6px 12px #ffffff;--section_radius: 0.75em;
   --section_outline_color: #000000;
@@ -73,3 +81,11 @@ section {
     -6px -6px 16px rgba(255, 255, 255, 0.2);
 
 }
+
+.dark section {
+  background-color: #214e47;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 12px #000000,
+    -6px -6px 12px #3a4d5c;
+}
+
