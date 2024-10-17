@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: white;
+  background-color: rgb(234, 234, 234);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -58,8 +58,7 @@ button {
 section {
   padding: 2em;
   margin: 2em 0;
-  background-color: #f8f8f8;
-  border-radius: 14px;
+  background-color: #ade2d3;
   box-shadow: 6px 6px 12px #c5c5c5,
   -6px -6px 12px #ffffff;--section_radius: 0.75em;
   --section_outline_color: #000000;
@@ -67,7 +66,6 @@ section {
   /* Border style for the section */
   border-radius: var(--section_radius);
   border: 2px solid var(--section_outline_color);
-  background: var(--section_color);
   padding: 2rem;
   margin: 2rem auto;
   width: 80%;
