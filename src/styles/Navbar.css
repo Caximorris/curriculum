@@ -17,12 +17,16 @@
   margin: 0;
 }
 
-.navbar-links li {
+.navbar-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar li {
   text-align: center;
 }
 
-/* Link styling to resemble the button */
-.navbar-links li a {
+.navbar li a {
   --button_radius: 0.75em;
   --button_outline_color: #000000;
   font-size: 17px;
@@ -45,12 +49,30 @@
 
 }
 
-.navbar-links li a:hover {
+.navbar-buttons a{
+  --button_radius: 0.75em;
+  --button_outline_color: #000000;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  text-decoration: none;
+  border: 2px solid var(--button_outline_color);
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
+  -6px -6px 16px rgba(255, 255, 255, 0.2);
+
+}
+
+.navbar a:hover {
   /* Pull the button upwards when hovered */
   transform: translateY(-0.33em);
 }
 
-.navbar-links li a:active {
+.navbar a:active {
   /* Push the button downwards when pressed */
   transform: translateY(0);
 }

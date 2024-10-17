@@ -1,10 +1,10 @@
 const MyStudies: React.FC = () => {
     return (
-        <section className="my-studies">
-            <div className="mt-4 text-gray-500">
-                <h2>My Studies</h2>
-                <div className="my-studies-container">
-                    <div className="my-studies-item">
+        <section className="studies">
+            <div>
+                <h2 className="text-3xl tracking-tight text-gray-900 sm:text-3xl pt-2">Studies</h2>
+                <div className="my-studies-container mt-4 text-gray-500">
+                    <div className="studies-item">
                         <h3>Computer Science</h3>
                         <p>UIB</p>
                     </div>
