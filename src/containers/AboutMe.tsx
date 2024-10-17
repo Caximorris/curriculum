@@ -6,7 +6,7 @@ const AboutMe: React.FC = () => {
       <div>
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Matias Tamagni</h2>
         <h2 className="text-3xl tracking-tight text-gray-900 sm:text-3xl pt-2">Full Stack Developer</h2>
-        <p className="mt-4 text-gray-500">I am a passionate about science and technology, I have
+        <p className="mt-4 text-gray-900">I am a passionate about science and technology, I have
           always been curious to understand how things work and
           how they can be improved.
           I have excellent problem solving skills and am able to find
@@ -17,7 +17,6 @@ const AboutMe: React.FC = () => {
           and able to quickly learn new concepts and technologies.
         </p>
       </div>
-        <h2>Full Stack Developer</h2>
     </section>
   );
 };

@@ -5,7 +5,6 @@
   margin-left: 8vw;
   margin-right: 8vw;
   align-items: center;
-  background-color: #ffffff;
 }
 
 .navbar-links {
@@ -46,7 +45,7 @@
   transition: transform 0.1s ease;
   box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
   -6px -6px 16px rgba(255, 255, 255, 0.2);
-
+  background-color: #ade2d3;
 }
 
 .navbar-buttons a{
@@ -64,7 +63,7 @@
   transition: transform 0.1s ease;
   box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
   -6px -6px 16px rgba(255, 255, 255, 0.2);
-
+  background-color: #ade2d3;
 }
 
 .navbar a:hover {
