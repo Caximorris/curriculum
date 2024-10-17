@@ -45,14 +45,20 @@
   color: var(--button_outline_color);
   transform: translateY(-0.2em);
   transition: transform 0.1s ease;
-  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
-  -6px -6px 16px rgba(255, 255, 255, 0.2);
+  box-shadow: 6px 6px 12px #ffffff,
+  -6px -6px 12px #ffffff,
+  -6px 6px 12px #ffffff,
+  6px -6px 12px #ffffff;
   background-color: #8fcfcf;
 }
 
 .dark .navbar li a {
   --button_outline_color: #ffffff;
   background-color: #214e47;
+  box-shadow: 6px 6px 12px #000000,
+    -6px 6px 16px #000000,
+    6px -6px 16px #000000,
+    -6px -6px 16px #000000;
   
 }
 
@@ -69,38 +75,39 @@
   color: var(--button_outline_color);
   transform: translateY(-0.2em);
   transition: transform 0.1s ease;
-  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
-  -6px -6px 16px rgba(255, 255, 255, 0.2);
+  box-shadow: 6px 6px 12px #ffffff,
+  -6px -6px 12px #ffffff,
+  -6px 6px 12px #ffffff,
+  6px -6px 12px #ffffff;
   background-color: #8fcfcf;
 }
 
 .dark .navbar-buttons a {
   --button_outline_color: #ffffff;
-
   background-color: #214e47;
+  box-shadow: 6px 6px 12px #000000,
+  -6px 6px 16px #000000,
+  6px -6px 16px #000000,
+  -6px -6px 16px #000000;
   
 }
 
 .svgContainer svg {
-  fill: black; /* Black in light mode */
+  fill: black;
 }
 
-/* Dark Mode */
 .dark .svgContainer svg {
-  fill: white; /* White in dark mode */
+  fill: white;
 }
 
 .navbar a:hover {
-  /* Pull the button upwards when hovered */
   transform: translateY(-0.33em);
 }
 
 .navbar a:active {
-  /* Push the button downwards when pressed */
   transform: translateY(0);
 }
 
-/* Mobile responsive adjustments */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -112,7 +119,6 @@
   }
 }
 
-/* The switch - the box around the slider */
 .switch {
   font-size: 17px;
   position: relative;
@@ -121,14 +127,12 @@
   height: 2em;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;

@@ -11,7 +11,7 @@ const Experience: React.FC = () => {
                             <li>Software configuration</li>
                             <li>Repair of cell phones, tablets and laptops.</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-700">MJOLNIR 08/2019 - 01/2022</p>
+                        <p className="mt-2 text-sm text-gray-700 dark:text-gray-400">MJOLNIR 08/2019 - 01/2022</p>
                     </dd>
                 </div>
                 <div className="border-t border-gray-200 pt-4">
@@ -22,7 +22,7 @@ const Experience: React.FC = () => {
                             <li>Software configuration</li>
                             <li>Checkout assembler</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-700">COS 02/2022 - 04/2022</p>
+                        <p className="mt-2 text-sm text-gray-700 dark:text-gray-400">COS 02/2022 - 04/2022</p>
                     </dd>
                 </div>
                 <div className="border-t border-gray-200 pt-4">
@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
                             <li>Software maintenance</li>
                             <li>Repair of cell phones, tablets and laptops.</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-700">MEDIAMARKT 09/2023 - 01/2024</p>
+                        <p className="mt-2 text-sm text-gray-700 dark:text-gray-400">MEDIAMARKT 09/2023 - 01/2024</p>
                     </dd>
                 </div>
                 <div className="border-t border-gray-200 pt-4">
@@ -44,7 +44,7 @@ const Experience: React.FC = () => {
                             <li>Software maintenance</li>
                             <li>Repair of cell phones, tablets and laptops.</li>
                         </ul>
-                        <p className="mt-2 text-sm text-gray-700">ANOVO 08/2024 - current</p>
+                        <p className="mt-2 text-sm text-gray-700 dark:text-gray-400">ANOVO 08/2024 - current</p>
                     </dd>
                 </div>
             </dl>

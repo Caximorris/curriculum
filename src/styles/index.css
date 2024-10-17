@@ -6,11 +6,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: rgb(234, 234, 234);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,11 +15,11 @@
 }
 
 body {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(230, 230, 230);
 }
 
 .dark body {
-  background-color: #111111;
+  background-color: #1a1a1a;
 }
 
 a {
@@ -67,18 +64,17 @@ section {
   padding: 2em;
   margin: 2em 0;
   background-color: #8fcfcf;
-  box-shadow: 6px 6px 12px #c5c5c5,
-  -6px -6px 12px #ffffff;--section_radius: 0.75em;
+  box-shadow: 6px 6px 12px #ffffff,
+  -6px -6px 12px #ffffff,
+  -6px 6px 12px #ffffff,
+  6px -6px 12px #ffffff;
+  --section_radius: 0.75em;
   --section_outline_color: #000000;
-  
-  /* Border style for the section */
   border-radius: var(--section_radius);
   border: 2px solid var(--section_outline_color);
   padding: 2rem;
   margin: 2rem auto;
   width: 80%;
-  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2),
-    -6px -6px 16px rgba(255, 255, 255, 0.2);
 
 }
 
@@ -86,6 +82,13 @@ section {
   background-color: #214e47;
   border-color: #ffffff;
   box-shadow: 6px 6px 12px #000000,
-    -6px -6px 12px #3a4d5c;
+    -6px 6px 16px #000000,
+    6px -6px 16px #000000,
+    -6px -6px 16px #000000;
+}
+
+section .portfolio-buttons {
+  justify-content: center;
+  align-items: center;
 }
 
