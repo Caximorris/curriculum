@@ -1,6 +1,6 @@
 const Experience: React.FC = () => {
     return (
-        <section className="experience">
+        <section className="border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal">
             <h2 className="text-3xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl pb-4">Experience</h2>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 <div className="border-t border-gray-200 pt-4">
