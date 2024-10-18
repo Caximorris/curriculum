@@ -21,10 +21,3 @@ body {
 .dark body {
   background-color: #1a1a1a;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-}

@@ -72,7 +72,6 @@ const Navbar: React.FC = () => {
           <input type="checkbox" className='opacity-0 w-0 h-0' onClick={toggleTheme} />
           <span className="slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-gray-600 transition duration-[400ms] rounded-[30px] border-2 border-black" ></span>
         </label>
-
       </div>
     </nav>
   );
