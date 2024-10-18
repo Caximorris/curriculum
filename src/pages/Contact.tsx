@@ -1,6 +1,3 @@
-
-
-
 const Contact: React.FC = () => {
   return (
     <section className="about-me">

@@ -1,7 +1,7 @@
 const Portfolio: React.FC = () => {
     return (
         <div className="Contact">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-4 sm:px-6 sm:py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 lg:gap-y-0 px-4 py-4 sm:px-6 sm:py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
                 <div className="border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0 transform transition-transform translate-y-[-0.2em]">
                     <a href="https://mati-retrogames.onrender.com/">
                         <img className="rounded-lg w-90 h-60" src="../../retrogames.png" alt="" />

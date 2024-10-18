@@ -4,7 +4,6 @@ import Experience from '../containers/Experience';
 import MyStudies from '../containers/MyStudies';
 import Additional from '../containers/Additional';
 
-
 const Home: React.FC = () => {
   return (
     <div>
