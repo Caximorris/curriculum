@@ -1,6 +1,6 @@
 const MyStudies: React.FC = () => {
     return (
-        <section className="studies">
+        <section className="border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal">
             <div>
                 <h2 className="text-3xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl pt-2">Studies</h2>
                 <div className="my-studies-container mt-4 text-gray-900 dark:text-gray-100">

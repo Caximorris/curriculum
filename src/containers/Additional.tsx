@@ -1,6 +1,6 @@
 const Additional: React.FC = () => {
     return (
-        <section className="additional">
+        <section className="border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal">
             <h2 className="text-3xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl pb-4">Languages</h2>
             <dl>
                 <div className="border-t border-gray-200 pt-4">
