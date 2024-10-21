@@ -1,6 +1,5 @@
 
 import React, { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom';
 import '../../styles/Navbar.css';
 
 const Navbar: React.FC = () => {
@@ -20,26 +19,6 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="flex justify-between items-center">
-      {/*<ul className="flex gap-4 md:gap-8">*/}
-      {/*  <li>*/}
-      {/*    <Link*/}
-      {/*      to="/"*/}
-      {/*      className="text-gray-900 dark:text-white block font-bold text-[17px] cursor-pointer border-2 rounded-[0.75em] border-black dark:border-white px-6 py-3 transform transition-transform  shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0">*/}
-      {/*      Home</Link>*/}
-      {/*  </li>*/}
-      {/*  <li>*/}
-      {/*    <Link*/}
-      {/*      to="/portfolio"*/}
-      {/*      className="text-gray-900 dark:text-white block font-bold text-[17px] cursor-pointer border-2 rounded-[0.75em] border-black dark:border-white px-6 py-3 transform transition-transform  shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0">*/}
-      {/*      Portfolio</Link>*/}
-      {/*  </li>*/}
-      {/*  <li>*/}
-      {/*    <Link*/}
-      {/*      to="/contact"*/}
-      {/*      className="text-gray-900 dark:text-white block font-bold text-[17px] cursor-pointer border-2 rounded-[0.75em] border-black dark:border-white px-6 py-3 transform transition-transform  shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0">*/}
-      {/*      Contact</Link>*/}
-      {/*  </li>*/}
-      {/*</ul>*/}
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">Matias
         Tamagni</h2>
       <div className="flex gap-4 items-center">
