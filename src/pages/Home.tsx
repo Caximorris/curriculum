@@ -3,8 +3,7 @@ import Skills from '../containers/Skills';
 import Experience from '../containers/Experience';
 import MyStudies from '../containers/MyStudies';
 import Additional from '../containers/Additional';
-import Portfolio from "./Portfolio.tsx";
-import Contact from "./Contact.tsx";
+import Portfolio from "../containers/Portfolio.tsx";
 
 const Home: React.FC = () => {
   return (
@@ -23,7 +22,6 @@ const Home: React.FC = () => {
         </div>
         <Additional />
       </div>
-      <Contact />
     </div>
   );
 };
