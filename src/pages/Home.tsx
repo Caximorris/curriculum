@@ -3,18 +3,20 @@ import Skills from '../containers/Skills';
 import Experience from '../containers/Experience';
 import MyStudies from '../containers/MyStudies';
 import Additional from '../containers/Additional';
+import Portfolio from "../containers/Portfolio.tsx";
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-4 sm:px-6 sm:py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div className="flex flex-col gap-4 lg:gap-8">
+      <div className="mx-auto grid grid-cols-1 items-center gap-4 lg:gap-x-8 lg:gap-y-16 lg:grid-cols-2">
         <AboutMe />
-        <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 h-full gap-4 sm:gap-6 lg:gap-8">
           <Skills />
           <MyStudies />
         </div>
       </div>
-      <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-4 sm:px-6 sm:py-10 lg:max-w-7xl lg:grid-cols-3 lg:px-8">
+      <Portfolio/>
+      <div className="w-full grid grid-cols-1 items-center gap-4 lg:gap-x-8 lg:gap-y-16 lg:grid-cols-3">
         <div className="lg:col-span-2">
           <Experience />
         </div>
