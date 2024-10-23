@@ -1,6 +1,6 @@
 const Portfolio: React.FC = () => {
     return (
-        <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:gap-y-0 lg:grid-cols-2">
+        <div className="grid grid-cols-1 items-center gap-4 lg:gap-y-0 lg:grid-cols-2 lg:gap-x-8">
             <div className="h-full border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0 transform transition-transform ">
                 <a href="https://mati-retrogames.onrender.com/" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-lg w-full object-cover mx-auto aspect-[20/9]" src="../../retrogames.png" alt="" />
