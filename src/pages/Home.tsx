@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <MyStudies />
         </div>
       </div>
-      <Portfolio/>
+      <Portfolio />
       <div className="w-full grid grid-cols-1 items-center gap-4 lg:gap-x-8 lg:gap-y-16 lg:grid-cols-3">
         <div className="lg:col-span-2">
           <Experience />

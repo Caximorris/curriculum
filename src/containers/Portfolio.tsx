@@ -1,7 +1,7 @@
 const Portfolio: React.FC = () => {
     return (
         <div className="grid grid-cols-1 items-center gap-4 lg:gap-y-0 lg:grid-cols-2 lg:gap-x-8">
-            <div className="h-full border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0 transform transition-transform ">
+            <section className="h-full border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0 transform transition-transform ">
                 <a href="https://mati-retrogames.onrender.com/" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-lg w-full object-cover mx-auto aspect-[20/9]" src="../../retrogames.png" alt="" />
                     <div className="p-5">
@@ -10,8 +10,8 @@ const Portfolio: React.FC = () => {
                         <p className="mb-2 text-sm text-gray-700 dark:text-gray-400">Click to visit the page</p>
                     </div>
                 </a>
-            </div>
-            <div className="h-full border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0 transform transition-transform ">
+            </section>
+            <section className="h-full border-2 rounded-[0.75em] border-black dark:border-white px-10 py-6 shadow-dark-shadow dark:shadow-light-shadow bg-light-teal dark:bg-dark-teal hover:translate-y-[-0.33em] active:translate-y-0 transform transition-transform ">
                 <a href="https://naturalparks.onrender.com/" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-lg w-full object-cover mx-auto aspect-[20/9]" src="../../naturalparks.png" alt="" />
                     <div className="p-5">
@@ -20,9 +20,8 @@ const Portfolio: React.FC = () => {
                         <p className="mb-2 text-sm text-gray-700 dark:text-gray-400">Click to visit the page</p>
                     </div>
                 </a>
-            </div>
-            <a />
-        </div>
+            </section>
+        </div >
     );
 };
 
